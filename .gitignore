@@ -1,12 +1,11 @@
 # Visual Studio
 .vs/
 *.user
-*.userosscache
 *.suo
 *.sln.metaproj
 *.sln.metaproj.user
 
-# Build folders
+# Build folders (ovo sada možemo ignorisati samo lokalne build foldere)
 Debug/
 Release/
 x64/
@@ -26,3 +25,7 @@ CMakeCache.txt
 *.ipch
 *.opendb
 *.VC.db
+
+# INCLUDE PACKAGES BINARIES
+!packages/**/lib/**/*.lib
+!packages/**/lib/**/*.dll
