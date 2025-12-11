@@ -1,0 +1,28 @@
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.metaproj
+*.sln.metaproj.user
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Misc
+*.log
+*.tlog
+*.pdb
+*.ilk
+*.ipch
+*.opendb
+*.VC.db
