@@ -5,7 +5,7 @@
 *.sln.metaproj
 *.sln.metaproj.user
 
-# Build folders (ovo sada možemo ignorisati samo lokalne build foldere)
+# Build folders (lokalni build folderi i temp fajlovi)
 Debug/
 Release/
 x64/
@@ -26,6 +26,6 @@ CMakeCache.txt
 *.opendb
 *.VC.db
 
-# INCLUDE PACKAGES BINARIES
-!packages/**/lib/**/*.lib
-!packages/**/lib/**/*.dll
+# Packages folder: NE IGNORISATI, pošalji ceo na GitHub
+!packages/
+!packages/**
